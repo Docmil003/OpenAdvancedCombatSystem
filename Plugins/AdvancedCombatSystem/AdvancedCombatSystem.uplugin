@@ -1,0 +1,50 @@
+{
+	"FileVersion": 3,
+	"Version": 1,
+	"VersionName": "1.0",
+	"FriendlyName": "Advanced Combat System",
+	"Description": "",
+	"Category": "Gameplay",
+	"CreatedBy": "Shyne Sogorb",
+	"CreatedByURL": "",
+	"DocsURL": "https://drive.google.com/file/d/13vIIOdpLwitCDxL9ibxnvFXrpqMmmHge/view?usp=drive_link",
+	"MarketplaceURL": "com.epicgames.launcher://ue/marketplace/product/f3c69dba367c4865be86c465faae598a",
+	"SupportURL": "",
+	"EngineVersion": "5.4.0",
+	"CanContainContent": true,
+	"IsBetaVersion": false,
+	"IsExperimentalVersion": false,
+	"Installed": false,
+	"Modules": [
+		{
+			"Name": "ACS_Core",
+			"Type": "Runtime",
+			"LoadingPhase": "Default",
+			"PlatformAllowList": [ "Win64", "Win32", "Mac", "IOS" ]
+		},
+		{
+			"Name": "ACS_Health",
+			"Type": "Runtime",
+			"LoadingPhase": "Default",
+			"PlatformAllowList": [ "Win64", "Win32", "Mac", "IOS" ]
+		},
+		{
+			"Name": "ACS_Weapons",
+			"Type": "Runtime",
+			"LoadingPhase": "Default",
+			"PlatformAllowList": [ "Win64", "Win32", "Mac", "IOS" ]
+		},
+		{
+			"Name": "ACS_WeaponsEditor",
+			"Type": "Editor",
+			"LoadingPhase": "Default",
+			"PlatformAllowList": [ "Win64", "Win32", "Mac", "IOS" ]
+		},
+		{
+			"Name": "ACS_Effects",
+			"Type": "Runtime",
+			"LoadingPhase": "Default",
+			"PlatformAllowList": [ "Win64", "Win32", "Mac", "IOS" ]
+		}
+	]
+}
